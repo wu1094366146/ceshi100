@@ -1,0 +1,18 @@
+# your domain
+domain: example.com
+#domain: 127.0.0.1
+
+# database dsn(postgresql)
+# 暂不支持远程数据库，留空以启用本地数据库默认连接参数
+database_url: ""
+
+# cloudflare api
+cf_email: ""
+cf_key: ""
+
+# source definition file
+source-files:
+  # use local file
+  - ./config/source.yaml
+  # use web file
+#  - https://example.com/config/source.yaml
