@@ -1,9 +1,7 @@
 # your domain
-domain: example.com
-#domain: 127.0.0.1
+domain: doudoubing3332.herokuapp.com
 
-# database dsn(postgresql)
-# 暂不支持远程数据库，留空以启用本地数据库默认连接参数
+# database url
 database_url: ""
 
 # cloudflare api
@@ -11,8 +9,8 @@ cf_email: ""
 cf_key: ""
 
 # source definition file
-source-files:
+source-files: 
   # use local file
   - ./config/source.yaml
   # use web file
-#  - https://example.com/config/source.yaml
+  - https://doudoubing3332.herokuapp.com/source.yaml
